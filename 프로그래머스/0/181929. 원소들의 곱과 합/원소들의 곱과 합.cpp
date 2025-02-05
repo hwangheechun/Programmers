@@ -1,6 +1,6 @@
 #include <string>
 #include <vector>
-#include <iostream>
+
 
 using namespace std;
 
@@ -17,8 +17,6 @@ int solution(vector<int> num_list) {
     }
     
     sum *= sum;
-    
-    cout << sum << mul << endl;
     
     answer = (sum > mul)? 1 : 0;
     
