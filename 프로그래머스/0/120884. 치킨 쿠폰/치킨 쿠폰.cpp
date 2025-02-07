@@ -1,6 +1,5 @@
 #include <string>
 #include <vector>
-#include <iostream>
 
 using namespace std;
 
@@ -14,8 +13,6 @@ int solution(int chicken) {
         answer += coupon / 10;
         coupon = coupon / 10 + coupon % 10;
     }
-
-    cout << coupon;
     
     return answer;
 }
